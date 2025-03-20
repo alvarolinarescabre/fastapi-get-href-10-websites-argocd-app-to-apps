@@ -10,4 +10,4 @@ spec:
     targetRevision: HEAD
     path: argocd/apps
   destination:
-    server: https://192.168.59.100:6443
+    name: core-apps
