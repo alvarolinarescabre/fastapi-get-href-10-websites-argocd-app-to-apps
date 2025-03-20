@@ -4,7 +4,7 @@ metadata:
   name: app-of-apps
   namespace: argocd
 spec:
-  project: fastapi-get-href-10-websites-argocd-app-to-apps
+  project: default
   source:
     repoURL: https://github.com/alvarolinarescabre/fastapi-get-href-10-websites-kustomize.git
     targetRevision: HEAD
