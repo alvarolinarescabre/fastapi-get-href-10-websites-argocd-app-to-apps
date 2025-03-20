@@ -8,6 +8,6 @@ spec:
   source:
     repoURL: https://github.com/alvarolinarescabre/fastapi-get-href-10-websites-kustomize.git
     targetRevision: HEAD
-    path: argocd/apps
+    path: .
   destination:
     name: core-apps
